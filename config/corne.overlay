@@ -1,10 +1,14 @@
 /* in config/corne.overlay */
 
-/*
- * Find the node labeled 'ssd1306_display' (which the
- * zmk-nice-oled module created) and override its height.
- */
-&ssd1306_display {
-    /* This is the fix: change height from 32 to 64 */
-    height = <64>;
+/* Find the i2c1 bus (which the Corne shield uses) */
+&i2c1 {
+
+    /*
+     * Find the display node that 'zmk-nice-oled' created
+     * inside the i2c1 bus. It labels this 'ssd1306_display'.
+     */
+    &ssd1306_display {
+        /* This is the fix: change height from 32 to 64 */
+        height = <64>;
+    };
 };
