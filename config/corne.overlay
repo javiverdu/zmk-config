@@ -1,13 +1,16 @@
-/*
- * This file overrides the default settings from the zmk-nice-oled module.
- */
+/* in config/corne.overlay */
 
-/* * Find the ssd1306 node that the module created.
- * The & symbol means we are referencing an existing node.
- */
-&ssd1306 {
-    /* * This is the fix:
-     * Override the module's default height = <32> and set it to <64>.
-     */
-    height = <64>;
+/* Find the I2C bus (it's &i2c1 on the Corne) */
+&i2c1 {
+    status = "okay";
+
+    /* Manually define your 128x64 display */
+    ssd1306: ssd1306@3c {
+        compatible = "solomon,ssd1306fb";
+        reg = <0x3c>;
+        label = "DISPLAY";
+        width = <128>;
+        height = <64>; /* <-- Set the correct 64px height */
+        prechargep = <0x22>;
+    };
 };
