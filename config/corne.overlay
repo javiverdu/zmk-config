@@ -1,9 +1,0 @@
-/* in config/corne.overlay */
-
-/*
- * Find the display node created by the zmk-nice-oled
- * module (which is &ssd1306_display) and override its height.
- */
-&ssd1306_display {
-    height = <64>;
-};
