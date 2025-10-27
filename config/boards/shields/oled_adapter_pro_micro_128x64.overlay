@@ -3,6 +3,8 @@
 	height = <64>;
 	display-offset = <0>;
 	display-start-line = <0>;
+	multiplex-ratio = <63>;
+	compins = <0x12>;
 	segment-remap;
 	com-invdir;
 };
