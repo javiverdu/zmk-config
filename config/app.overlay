@@ -1,0 +1,12 @@
+&ssd1306 {
+	width = <128>;
+	height = <64>;
+	display-offset = <0>;
+	display-start-line = <0>;
+	page-offset = <0>;
+	segment-offset = <0>;
+	multiplex-ratio = <63>;
+	compins = <0x12>;
+	segment-remap;
+	com-invdir;
+};
