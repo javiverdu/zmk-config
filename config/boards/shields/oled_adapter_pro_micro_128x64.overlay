@@ -1,0 +1,8 @@
+&ssd1306 {
+	// SSD1312 wants the framebuffer rotated and shifted.
+	width = <128>;
+	height = <64>;
+	display-offset = <32>;
+	segment-remap;
+	com-invdir;
+};
