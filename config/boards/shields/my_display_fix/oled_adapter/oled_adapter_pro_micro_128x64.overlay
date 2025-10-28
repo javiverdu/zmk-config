@@ -29,6 +29,8 @@
         display-offset = <0>;
         segment-remap;
         com-invdir;
+        multiplex-ratio = <63>;
+        prechargep = <0x22>;
         /* * Removed SSD1306-specific properties like
          * multiplex-ratio and prechargep.
          * The SH1106 driver uses its own defaults.
