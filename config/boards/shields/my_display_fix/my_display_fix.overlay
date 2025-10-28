@@ -1,0 +1,44 @@
+/*
+ * Custom display overlay for SSD1312 (SH1106 driver)
+ *
+ * This file fixes the driver for the 'zmk-oled-adapter'
+ * by replacing its 128x64 overlay.
+ */
+
+/*
+ * The board's default overlay (e.g., nice_nano) might
+ * define a 128x32 display. The 'zmk-oled-adapter' also
+ * deletes this, but we do it here too to be safe.
+ */
+/delete-node/ &oled;
+
+/*
+ * Find the I2C bus (named 'pro_micro_i2c' in most
+ * pro-micro compatible board definitions)
+ */
+&pro_micro_i2c {
+    status = "okay";
+
+    /* This is your new, corrected 128x64 display */
+    oled_128x64: sh1106@3c {
+        compatible = "sinowealth,sh1106";
+        reg = <0x3c>;
+        width = <128>;
+        height = <64>;
+        
+        /* THIS IS THE KEY FIX for 128-wide SH1106-style displays */
+        segment-offset = <2>;
+        
+        page-offset = <0>;
+        display-offset = <0>;
+        segment-remap;   /* Remove this if your display is mirrored */
+        com-invdir;      /* Remove this if your display is upside-down */
+    };
+};
+
+/* Tell ZMK to use our new display */
+/ {
+    chosen {
+        zephyr,display = &oled_128x64;
+    };
+};
