@@ -1,7 +1,8 @@
 /*
- * Copyright (c) 2022 The ZMK Contributors
+ * ZMK Overlay for a 128x64 SSD1306 Display
  *
- * SPDX-License-Identifier: MIT
+ * This uses the 'solomon,ssd1306fb' driver which you
+ * confirmed works, but with the correct 64-pixel height.
  */
 
 /delete-node/ &oled;
@@ -9,25 +10,35 @@
 &pro_micro_i2c {
     status = "okay";
 
+    /* 1. Name the node 'oled_128x64' */
     oled_128x64: ssd1306@3c {
         compatible = "solomon,ssd1306fb";
         reg = <0x3c>;
+        
+        /* 2. Set height to 64 */
         width = <128>;
-        height = <63>;
+        height = <64>; 
+
         segment-offset = <0>;
         page-offset = <0>;
         display-offset = <0>;
-        multiplex-ratio = <63>;
-        segment-remap;
-        com-invdir;
-        com-sequential;
-        inversion-on;
+
+        /* 3. Multiplex ratio must be height - 1 */
+        multiplex-ratio = <63>; 
+
         prechargep = <0x22>;
+        segment-remap;   /* Remove if mirrored */
+        com-invdir;      /* Remove if upside-down */
+
+        /* * Removed 'com-sequential' and 'inversion-on'
+         * to start from a clean default.
+         */
     };
 };
 
 / {
     chosen {
+        /* 4. 'chosen' must match the node name above */
         zephyr,display = &oled_128x64;
     };
 };
