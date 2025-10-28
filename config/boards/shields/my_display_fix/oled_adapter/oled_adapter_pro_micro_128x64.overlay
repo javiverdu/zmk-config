@@ -1,26 +1,38 @@
 /*
- * Copyright (c) 2022 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
+ * ZMK Display Overlay for SSD1312 (using SH1106 driver)
  */
+
 /delete-node/ &oled;
 
 &pro_micro_i2c {
     status = "okay";
 
-    oled_128x64: ssd1306@3c {
-        compatible = "solomon,ssd1306fb";
+    /* * Renamed the node to sh1106 for clarity,
+     * and updated the I2C address in the node name.
+     */
+    oled_128x64: sh1106@3c {
+        /* * THIS IS THE KEY CHANGE:
+         * Use the SH1106 compatible driver.
+         */
+        compatible = "sinowealth,sh1106";
         reg = <0x3c>;
         width = <128>;
         height = <64>;
-        segment-offset = <0>;
+
+        /* * This is also critical for SH1106-based displays
+         * that are 128px wide. The controller is 132px,
+         * so we add an offset of 2 pixels.
+         */
+        segment-offset = <2>;
+        
         page-offset = <0>;
         display-offset = <0>;
-        multiplex-ratio = <63>;
         segment-remap;
         com-invdir;
-        inversion-on;
-        prechargep = <0x22>;
+        /* * Removed SSD1306-specific properties like
+         * multiplex-ratio and prechargep.
+         * The SH1106 driver uses its own defaults.
+         */
     };
 };
 
@@ -29,4 +41,3 @@
         zephyr,display = &oled_128x64;
     };
 };
-// vim: filetype=dts fdm=marker:
