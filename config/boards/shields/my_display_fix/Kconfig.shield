@@ -1,0 +1,5 @@
+# Copyright (c) 2024 Your Name
+# SPDX-License-Identifier: MIT
+
+config SHIELD_MY_DISPLAY_FIX
+    def_bool $(shields_list_contains,my_display_fix)
