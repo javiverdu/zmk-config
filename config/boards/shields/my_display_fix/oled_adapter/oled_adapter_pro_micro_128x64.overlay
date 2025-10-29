@@ -1,19 +1,18 @@
 /*
  * ZMK Overlay for 128x64 SSD1306
  *
- * FIX ATTEMPT: Adding 'com-sequential' to fix vertical artifacts
- * and 'inversion-on' from the original file.
+ * FIX ATTEMPT 2:
+ * 1. Setting I2C speed to 100kHz (I2C_BITRATE_STANDARD)
+ * 2. Keeping 'com-sequential'
+ * 3. Fixing typo in 'chosen' block
  */
 
-&pro_micro_i2c {
-    clock-frequency = <I2C_BITRATE_STANDARD>; /* 100kHz */
-};
-
-/delete-node/ &oled;
-
+/* 1. Modify the I2C bus: set speed and add display */
 &pro_micro_i2c {
     status = "okay";
+    clock-frequency = <I2C_BITRATE_STANDARD>; /* 100kHz */
 
+    /* 2. Define the display as a child of the I2C bus */
     oled_128x64: ssd1306@3c {
         compatible = "solomon,ssd1306fb";
         reg = <0x3c>;
@@ -26,26 +25,20 @@
         prechargep = <0x22>;
         segment-remap;   /* Remove if mirrored */
         com-invdir;      /* Remove if upside-down */
-
-        /*
-         * ADDING THIS BACK:
-         * This changes the COM pin mapping. A mismatch is a
-         * very common cause of vertical lines/glitches.
-         */
+        
+        /* Keep this from the last attempt */
         com-sequential;
-
-        /*
-         * ADDING THIS BACK:
-         * You had this in your original file. It inverts
-         * the display (white <-> black).
-         */
         inversion-on;
     };
 };
 
+/* 3. Delete the default board display */
+/delete-node/ &oled;
+
+/* 4. Tell ZMK to use our new display (with typo fixed) */
 / {
     chosen {
-        zephyr,display = &oled_1s28x64;
+        zephyr,display = &oled_128x64;
     };
 };
 // vim: filetype=dts fdm=marker:
