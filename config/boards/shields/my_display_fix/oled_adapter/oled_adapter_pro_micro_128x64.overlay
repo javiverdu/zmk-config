@@ -7,6 +7,9 @@
  * 3. Fixing typo in 'chosen' block
  */
 
+/* 3. Delete the default board display */
+/delete-node/ &oled;
+
 /* 1. Modify the I2C bus: set speed and add display */
 &pro_micro_i2c {
     status = "okay";
@@ -32,8 +35,6 @@
     };
 };
 
-/* 3. Delete the default board display */
-/delete-node/ &oled;
 
 /* 4. Tell ZMK to use our new display (with typo fixed) */
 / {
