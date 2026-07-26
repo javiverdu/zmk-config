@@ -1,0 +1,903 @@
+Refreshing run status every 20 seconds. Press Ctrl+C to quit.
+
+* keypeek Build ZMK firmware · 30199466249
+Triggered via push less than a minute ago
+
+JOBS
+✓ build / Fetch Build Keyboards in 15s (ID 89786789858)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Install yaml2json
+  ✓ Fetch Build Matrix
+  ✓ Post Checkout
+  ✓ Complete job
+* build / Build (nice_nano_v2, corne_left raw_hid_adapter, studio-rpc-usb-uart, -DCONFIG_ZMK_STUDIO=y) (ID 89786812918)
+  ✓ Set up job
+  * Initialize containers
+  * Checkout
+  * Create build directory
+  * Prepare variables
+  * Copy config files to isolated temporary directory
+  * Cache west modules
+  * West Init
+  * West Update
+  * West Zephyr export
+  * West Build (${{ env.display_name }})
+  * ${{ env.display_name }} Kconfig file
+  * ${{ env.display_name }} Devicetree file
+  * Rename artifacts
+  * Archive (${{ env.display_name }})
+  * Stop containers
+* build / Build (nice_nano_v2, corne_right) (ID 89786812925)
+  ✓ Set up job
+  * Initialize containers
+  * Checkout
+  * Create build directory
+  * Prepare variables
+  * Copy config files to isolated temporary directory
+  * Cache west modules
+  * West Init
+  * West Update
+  * West Zephyr export
+  * West Build (${{ env.display_name }})
+  * ${{ env.display_name }} Kconfig file
+  * ${{ env.display_name }} Devicetree file
+  * Rename artifacts
+  * Archive (${{ env.display_name }})
+  * Stop containers
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build / Fetch Build Keyboards: .github#4
+
+Refreshing run status every 20 seconds. Press Ctrl+C to quit.
+
+* keypeek Build ZMK firmware · 30199466249
+Triggered via push less than a minute ago
+
+JOBS
+✓ build / Fetch Build Keyboards in 15s (ID 89786789858)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Install yaml2json
+  ✓ Fetch Build Matrix
+  ✓ Post Checkout
+  ✓ Complete job
+* build / Build (nice_nano_v2, corne_left raw_hid_adapter, studio-rpc-usb-uart, -DCONFIG_ZMK_STUDIO=y) (ID 89786812918)
+  ✓ Set up job
+  * Initialize containers
+  * Checkout
+  * Create build directory
+  * Prepare variables
+  * Copy config files to isolated temporary directory
+  * Cache west modules
+  * West Init
+  * West Update
+  * West Zephyr export
+  * West Build (${{ env.display_name }})
+  * ${{ env.display_name }} Kconfig file
+  * ${{ env.display_name }} Devicetree file
+  * Rename artifacts
+  * Archive (${{ env.display_name }})
+  * Stop containers
+* build / Build (nice_nano_v2, corne_right) (ID 89786812925)
+  ✓ Set up job
+  ✓ Initialize containers
+  * Checkout
+  * Create build directory
+  * Prepare variables
+  * Copy config files to isolated temporary directory
+  * Cache west modules
+  * West Init
+  * West Update
+  * West Zephyr export
+  * West Build (${{ env.display_name }})
+  * ${{ env.display_name }} Kconfig file
+  * ${{ env.display_name }} Devicetree file
+  * Rename artifacts
+  * Archive (${{ env.display_name }})
+  * Post Checkout
+  * Stop containers
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build / Fetch Build Keyboards: .github#4
+
+Refreshing run status every 20 seconds. Press Ctrl+C to quit.
+
+* keypeek Build ZMK firmware · 30199466249
+Triggered via push about 1 minute ago
+
+JOBS
+✓ build / Fetch Build Keyboards in 15s (ID 89786789858)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Install yaml2json
+  ✓ Fetch Build Matrix
+  ✓ Post Checkout
+  ✓ Complete job
+* build / Build (nice_nano_v2, corne_left raw_hid_adapter, studio-rpc-usb-uart, -DCONFIG_ZMK_STUDIO=y) (ID 89786812918)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  * West Update
+  * West Zephyr export
+  * West Build (${{ env.display_name }})
+  * ${{ env.display_name }} Kconfig file
+  * ${{ env.display_name }} Devicetree file
+  * Rename artifacts
+  * Archive (${{ env.display_name }})
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+* build / Build (nice_nano_v2, corne_right) (ID 89786812925)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  * West Update
+  * West Zephyr export
+  * West Build (${{ env.display_name }})
+  * ${{ env.display_name }} Kconfig file
+  * ${{ env.display_name }} Devicetree file
+  * Rename artifacts
+  * Archive (${{ env.display_name }})
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build / Fetch Build Keyboards: .github#4
+
+Refreshing run status every 20 seconds. Press Ctrl+C to quit.
+
+* keypeek Build ZMK firmware · 30199466249
+Triggered via push about 1 minute ago
+
+JOBS
+✓ build / Fetch Build Keyboards in 15s (ID 89786789858)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Install yaml2json
+  ✓ Fetch Build Matrix
+  ✓ Post Checkout
+  ✓ Complete job
+* build / Build (nice_nano_v2, corne_left raw_hid_adapter, studio-rpc-usb-uart, -DCONFIG_ZMK_STUDIO=y) (ID 89786812918)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  * West Update
+  * West Zephyr export
+  * West Build (${{ env.display_name }})
+  * ${{ env.display_name }} Kconfig file
+  * ${{ env.display_name }} Devicetree file
+  * Rename artifacts
+  * Archive (${{ env.display_name }})
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+* build / Build (nice_nano_v2, corne_right) (ID 89786812925)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  * West Update
+  * West Zephyr export
+  * West Build (${{ env.display_name }})
+  * ${{ env.display_name }} Kconfig file
+  * ${{ env.display_name }} Devicetree file
+  * Rename artifacts
+  * Archive (${{ env.display_name }})
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build / Fetch Build Keyboards: .github#4
+
+Refreshing run status every 20 seconds. Press Ctrl+C to quit.
+
+* keypeek Build ZMK firmware · 30199466249
+Triggered via push about 1 minute ago
+
+JOBS
+✓ build / Fetch Build Keyboards in 15s (ID 89786789858)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Install yaml2json
+  ✓ Fetch Build Matrix
+  ✓ Post Checkout
+  ✓ Complete job
+* build / Build (nice_nano_v2, corne_left raw_hid_adapter, studio-rpc-usb-uart, -DCONFIG_ZMK_STUDIO=y) (ID 89786812918)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  * West Update
+  * West Zephyr export
+  * West Build (${{ env.display_name }})
+  * ${{ env.display_name }} Kconfig file
+  * ${{ env.display_name }} Devicetree file
+  * Rename artifacts
+  * Archive (${{ env.display_name }})
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+* build / Build (nice_nano_v2, corne_right) (ID 89786812925)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  * West Update
+  * West Zephyr export
+  * West Build (${{ env.display_name }})
+  * ${{ env.display_name }} Kconfig file
+  * ${{ env.display_name }} Devicetree file
+  * Rename artifacts
+  * Archive (${{ env.display_name }})
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build / Fetch Build Keyboards: .github#4
+
+Refreshing run status every 20 seconds. Press Ctrl+C to quit.
+
+* keypeek Build ZMK firmware · 30199466249
+Triggered via push about 2 minutes ago
+
+JOBS
+✓ build / Fetch Build Keyboards in 15s (ID 89786789858)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Install yaml2json
+  ✓ Fetch Build Matrix
+  ✓ Post Checkout
+  ✓ Complete job
+* build / Build (nice_nano_v2, corne_left raw_hid_adapter, studio-rpc-usb-uart, -DCONFIG_ZMK_STUDIO=y) (ID 89786812918)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  * West Update
+  * West Zephyr export
+  * West Build (${{ env.display_name }})
+  * ${{ env.display_name }} Kconfig file
+  * ${{ env.display_name }} Devicetree file
+  * Rename artifacts
+  * Archive (${{ env.display_name }})
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+* build / Build (nice_nano_v2, corne_right) (ID 89786812925)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  * West Update
+  * West Zephyr export
+  * West Build (${{ env.display_name }})
+  * ${{ env.display_name }} Kconfig file
+  * ${{ env.display_name }} Devicetree file
+  * Rename artifacts
+  * Archive (${{ env.display_name }})
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build / Fetch Build Keyboards: .github#4
+
+Refreshing run status every 20 seconds. Press Ctrl+C to quit.
+
+* keypeek Build ZMK firmware · 30199466249
+Triggered via push about 2 minutes ago
+
+JOBS
+✓ build / Fetch Build Keyboards in 15s (ID 89786789858)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Install yaml2json
+  ✓ Fetch Build Matrix
+  ✓ Post Checkout
+  ✓ Complete job
+* build / Build (nice_nano_v2, corne_left raw_hid_adapter, studio-rpc-usb-uart, -DCONFIG_ZMK_STUDIO=y) (ID 89786812918)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  * West Update
+  * West Zephyr export
+  * West Build (${{ env.display_name }})
+  * ${{ env.display_name }} Kconfig file
+  * ${{ env.display_name }} Devicetree file
+  * Rename artifacts
+  * Archive (${{ env.display_name }})
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+* build / Build (nice_nano_v2, corne_right) (ID 89786812925)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  * West Update
+  * West Zephyr export
+  * West Build (${{ env.display_name }})
+  * ${{ env.display_name }} Kconfig file
+  * ${{ env.display_name }} Devicetree file
+  * Rename artifacts
+  * Archive (${{ env.display_name }})
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build / Fetch Build Keyboards: .github#4
+
+Refreshing run status every 20 seconds. Press Ctrl+C to quit.
+
+* keypeek Build ZMK firmware · 30199466249
+Triggered via push about 2 minutes ago
+
+JOBS
+✓ build / Fetch Build Keyboards in 15s (ID 89786789858)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Install yaml2json
+  ✓ Fetch Build Matrix
+  ✓ Post Checkout
+  ✓ Complete job
+* build / Build (nice_nano_v2, corne_left raw_hid_adapter, studio-rpc-usb-uart, -DCONFIG_ZMK_STUDIO=y) (ID 89786812918)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  * West Update
+  * West Zephyr export
+  * West Build (${{ env.display_name }})
+  * ${{ env.display_name }} Kconfig file
+  * ${{ env.display_name }} Devicetree file
+  * Rename artifacts
+  * Archive (${{ env.display_name }})
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+* build / Build (nice_nano_v2, corne_right) (ID 89786812925)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  * West Update
+  * West Zephyr export
+  * West Build (${{ env.display_name }})
+  * ${{ env.display_name }} Kconfig file
+  * ${{ env.display_name }} Devicetree file
+  * Rename artifacts
+  * Archive (${{ env.display_name }})
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build / Fetch Build Keyboards: .github#4
+
+Refreshing run status every 20 seconds. Press Ctrl+C to quit.
+
+* keypeek Build ZMK firmware · 30199466249
+Triggered via push about 3 minutes ago
+
+JOBS
+✓ build / Fetch Build Keyboards in 15s (ID 89786789858)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Install yaml2json
+  ✓ Fetch Build Matrix
+  ✓ Post Checkout
+  ✓ Complete job
+* build / Build (nice_nano_v2, corne_left raw_hid_adapter, studio-rpc-usb-uart, -DCONFIG_ZMK_STUDIO=y) (ID 89786812918)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  * West Update
+  * West Zephyr export
+  * West Build (${{ env.display_name }})
+  * ${{ env.display_name }} Kconfig file
+  * ${{ env.display_name }} Devicetree file
+  * Rename artifacts
+  * Archive (${{ env.display_name }})
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+* build / Build (nice_nano_v2, corne_right) (ID 89786812925)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  ✓ West Update
+  ✓ West Zephyr export
+  * West Build (corne_right - nice_nano_v2)
+  * ${{ env.display_name }} Kconfig file
+  * ${{ env.display_name }} Devicetree file
+  * Rename artifacts
+  * Archive (${{ env.display_name }})
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build / Fetch Build Keyboards: .github#4
+
+Refreshing run status every 20 seconds. Press Ctrl+C to quit.
+
+* keypeek Build ZMK firmware · 30199466249
+Triggered via push about 3 minutes ago
+
+JOBS
+✓ build / Fetch Build Keyboards in 15s (ID 89786789858)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Install yaml2json
+  ✓ Fetch Build Matrix
+  ✓ Post Checkout
+  ✓ Complete job
+* build / Build (nice_nano_v2, corne_left raw_hid_adapter, studio-rpc-usb-uart, -DCONFIG_ZMK_STUDIO=y) (ID 89786812918)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  ✓ West Update
+  ✓ West Zephyr export
+  * West Build (corne_left raw_hid_adapter - nice_nano_v2)
+  * ${{ env.display_name }} Kconfig file
+  * ${{ env.display_name }} Devicetree file
+  * Rename artifacts
+  * Archive (${{ env.display_name }})
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+* build / Build (nice_nano_v2, corne_right) (ID 89786812925)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  ✓ West Update
+  ✓ West Zephyr export
+  ✓ West Build (corne_right - nice_nano_v2)
+  ✓ corne_right - nice_nano_v2 Kconfig file
+  ✓ corne_right - nice_nano_v2 Devicetree file
+  ✓ Rename artifacts
+  * Archive (corne_right - nice_nano_v2)
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build / Fetch Build Keyboards: .github#4
+
+Refreshing run status every 20 seconds. Press Ctrl+C to quit.
+
+* keypeek Build ZMK firmware · 30199466249
+Triggered via push about 4 minutes ago
+
+JOBS
+✓ build / Fetch Build Keyboards in 15s (ID 89786789858)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Install yaml2json
+  ✓ Fetch Build Matrix
+  ✓ Post Checkout
+  ✓ Complete job
+* build / Build (nice_nano_v2, corne_left raw_hid_adapter, studio-rpc-usb-uart, -DCONFIG_ZMK_STUDIO=y) (ID 89786812918)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  ✓ West Update
+  ✓ West Zephyr export
+  ✓ West Build (corne_left raw_hid_adapter - nice_nano_v2)
+  ✓ corne_left raw_hid_adapter - nice_nano_v2 Kconfig file
+  ✓ corne_left raw_hid_adapter - nice_nano_v2 Devicetree file
+  ✓ Rename artifacts
+  ✓ Archive (corne_left raw_hid_adapter - nice_nano_v2)
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+* build / Build (nice_nano_v2, corne_right) (ID 89786812925)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  ✓ West Update
+  ✓ West Zephyr export
+  ✓ West Build (corne_right - nice_nano_v2)
+  ✓ corne_right - nice_nano_v2 Kconfig file
+  ✓ corne_right - nice_nano_v2 Devicetree file
+  ✓ Rename artifacts
+  ✓ Archive (corne_right - nice_nano_v2)
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build / Fetch Build Keyboards: .github#4
+
+Refreshing run status every 20 seconds. Press Ctrl+C to quit.
+
+* keypeek Build ZMK firmware · 30199466249
+Triggered via push about 4 minutes ago
+
+JOBS
+✓ build / Fetch Build Keyboards in 15s (ID 89786789858)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Install yaml2json
+  ✓ Fetch Build Matrix
+  ✓ Post Checkout
+  ✓ Complete job
+* build / Build (nice_nano_v2, corne_left raw_hid_adapter, studio-rpc-usb-uart, -DCONFIG_ZMK_STUDIO=y) (ID 89786812918)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  ✓ West Update
+  ✓ West Zephyr export
+  ✓ West Build (corne_left raw_hid_adapter - nice_nano_v2)
+  ✓ corne_left raw_hid_adapter - nice_nano_v2 Kconfig file
+  ✓ corne_left raw_hid_adapter - nice_nano_v2 Devicetree file
+  ✓ Rename artifacts
+  ✓ Archive (corne_left raw_hid_adapter - nice_nano_v2)
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+* build / Build (nice_nano_v2, corne_right) (ID 89786812925)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  ✓ West Update
+  ✓ West Zephyr export
+  ✓ West Build (corne_right - nice_nano_v2)
+  ✓ corne_right - nice_nano_v2 Kconfig file
+  ✓ corne_right - nice_nano_v2 Devicetree file
+  ✓ Rename artifacts
+  ✓ Archive (corne_right - nice_nano_v2)
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build / Fetch Build Keyboards: .github#4
+
+Refreshing run status every 20 seconds. Press Ctrl+C to quit.
+
+* keypeek Build ZMK firmware · 30199466249
+Triggered via push about 4 minutes ago
+
+JOBS
+✓ build / Fetch Build Keyboards in 15s (ID 89786789858)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Install yaml2json
+  ✓ Fetch Build Matrix
+  ✓ Post Checkout
+  ✓ Complete job
+* build / Build (nice_nano_v2, corne_left raw_hid_adapter, studio-rpc-usb-uart, -DCONFIG_ZMK_STUDIO=y) (ID 89786812918)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  ✓ West Update
+  ✓ West Zephyr export
+  ✓ West Build (corne_left raw_hid_adapter - nice_nano_v2)
+  ✓ corne_left raw_hid_adapter - nice_nano_v2 Kconfig file
+  ✓ corne_left raw_hid_adapter - nice_nano_v2 Devicetree file
+  ✓ Rename artifacts
+  ✓ Archive (corne_left raw_hid_adapter - nice_nano_v2)
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+* build / Build (nice_nano_v2, corne_right) (ID 89786812925)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  ✓ West Update
+  ✓ West Zephyr export
+  ✓ West Build (corne_right - nice_nano_v2)
+  ✓ corne_right - nice_nano_v2 Kconfig file
+  ✓ corne_right - nice_nano_v2 Devicetree file
+  ✓ Rename artifacts
+  ✓ Archive (corne_right - nice_nano_v2)
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build / Fetch Build Keyboards: .github#4
+
+Refreshing run status every 20 seconds. Press Ctrl+C to quit.
+
+* keypeek Build ZMK firmware · 30199466249
+Triggered via push about 5 minutes ago
+
+JOBS
+✓ build / Fetch Build Keyboards in 15s (ID 89786789858)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Install yaml2json
+  ✓ Fetch Build Matrix
+  ✓ Post Checkout
+  ✓ Complete job
+* build / Build (nice_nano_v2, corne_left raw_hid_adapter, studio-rpc-usb-uart, -DCONFIG_ZMK_STUDIO=y) (ID 89786812918)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  ✓ West Update
+  ✓ West Zephyr export
+  ✓ West Build (corne_left raw_hid_adapter - nice_nano_v2)
+  ✓ corne_left raw_hid_adapter - nice_nano_v2 Kconfig file
+  ✓ corne_left raw_hid_adapter - nice_nano_v2 Devicetree file
+  ✓ Rename artifacts
+  ✓ Archive (corne_left raw_hid_adapter - nice_nano_v2)
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+* build / Build (nice_nano_v2, corne_right) (ID 89786812925)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  ✓ West Update
+  ✓ West Zephyr export
+  ✓ West Build (corne_right - nice_nano_v2)
+  ✓ corne_right - nice_nano_v2 Kconfig file
+  ✓ corne_right - nice_nano_v2 Devicetree file
+  ✓ Rename artifacts
+  ✓ Archive (corne_right - nice_nano_v2)
+  * Post Cache west modules
+  * Post Checkout
+  * Stop containers
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build / Fetch Build Keyboards: .github#4
+
+Refreshing run status every 20 seconds. Press Ctrl+C to quit.
+
+* keypeek Build ZMK firmware · 30199466249
+Triggered via push about 5 minutes ago
+
+JOBS
+✓ build / Fetch Build Keyboards in 15s (ID 89786789858)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Install yaml2json
+  ✓ Fetch Build Matrix
+  ✓ Post Checkout
+  ✓ Complete job
+* build / Build (nice_nano_v2, corne_left raw_hid_adapter, studio-rpc-usb-uart, -DCONFIG_ZMK_STUDIO=y) (ID 89786812918)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  ✓ West Update
+  ✓ West Zephyr export
+  ✓ West Build (corne_left raw_hid_adapter - nice_nano_v2)
+  ✓ corne_left raw_hid_adapter - nice_nano_v2 Kconfig file
+  ✓ corne_left raw_hid_adapter - nice_nano_v2 Devicetree file
+  ✓ Rename artifacts
+  ✓ Archive (corne_left raw_hid_adapter - nice_nano_v2)
+  ✓ Post Cache west modules
+  ✓ Post Checkout
+  * Stop containers
+✓ build / Build (nice_nano_v2, corne_right) in 5m3s (ID 89786812925)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  ✓ West Update
+  ✓ West Zephyr export
+  ✓ West Build (corne_right - nice_nano_v2)
+  ✓ corne_right - nice_nano_v2 Kconfig file
+  ✓ corne_right - nice_nano_v2 Devicetree file
+  ✓ Rename artifacts
+  ✓ Archive (corne_right - nice_nano_v2)
+  ✓ Post Cache west modules
+  ✓ Post Checkout
+  ✓ Stop containers
+  ✓ Complete job
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build / Fetch Build Keyboards: .github#4
+
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/cache@v4, actions/checkout@v4, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build / Build (nice_nano_v2, corne_right): .github#2
+
+✓ keypeek Build ZMK firmware · 30199466249
+Triggered via push about 5 minutes ago
+
+JOBS
+✓ build / Fetch Build Keyboards in 15s (ID 89786789858)
+  ✓ Set up job
+  ✓ Checkout
+  ✓ Install yaml2json
+  ✓ Fetch Build Matrix
+  ✓ Post Checkout
+  ✓ Complete job
+✓ build / Build (nice_nano_v2, corne_left raw_hid_adapter, studio-rpc-usb-uart, -DCONFIG_ZMK_STUDIO=y) in 5m6s (ID 89786812918)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  ✓ West Update
+  ✓ West Zephyr export
+  ✓ West Build (corne_left raw_hid_adapter - nice_nano_v2)
+  ✓ corne_left raw_hid_adapter - nice_nano_v2 Kconfig file
+  ✓ corne_left raw_hid_adapter - nice_nano_v2 Devicetree file
+  ✓ Rename artifacts
+  ✓ Archive (corne_left raw_hid_adapter - nice_nano_v2)
+  ✓ Post Cache west modules
+  ✓ Post Checkout
+  ✓ Stop containers
+  ✓ Complete job
+✓ build / Build (nice_nano_v2, corne_right) in 5m3s (ID 89786812925)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Create build directory
+  ✓ Prepare variables
+  ✓ Copy config files to isolated temporary directory
+  ✓ Cache west modules
+  ✓ West Init
+  ✓ West Update
+  ✓ West Zephyr export
+  ✓ West Build (corne_right - nice_nano_v2)
+  ✓ corne_right - nice_nano_v2 Kconfig file
+  ✓ corne_right - nice_nano_v2 Devicetree file
+  ✓ Rename artifacts
+  ✓ Archive (corne_right - nice_nano_v2)
+  ✓ Post Cache west modules
+  ✓ Post Checkout
+  ✓ Stop containers
+  ✓ Complete job
+✓ build / Merge Output Artifacts in 3s (ID 89787245257)
+  ✓ Set up job
+  ✓ Merge Artifacts
+  ✓ Complete job
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build / Fetch Build Keyboards: .github#4
+
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/cache@v4, actions/checkout@v4, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build / Build (nice_nano_v2, corne_right): .github#2
+
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/upload-artifact/merge@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build / Merge Output Artifacts: .github#2
+
