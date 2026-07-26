@@ -4,14 +4,24 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
+    - name: zzeneg # requerido para el modulo Raw HID
+      url-base: https://github.com/zzeneg
+    - name: srwi # requerido para el modulo KeyPeek
+      url-base: https://github.com/srwi
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3 # fijado: main migro a Zephyr 4.1/hwmv2 y renombro nice_nano_v2
       import: app/west.yml
     - name: zmk-nice-oled
       remote: mctechnology17
       revision: main
+    - name: zmk-raw-hid # modulo Raw HID (shield raw_hid_adapter)
+      remote: zzeneg
+      revision: main
+    - name: zmk-keypeek-layer-notifier # modulo KeyPeek
+      remote: srwi
+      revision: master
 #    - name: zmk-oled-adapter
 #      remote: mctechnology17
 #      revision: main
