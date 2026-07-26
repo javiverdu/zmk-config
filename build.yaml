@@ -21,9 +21,14 @@ include:
   #   - se ve bien   -> el problema es raw HID / Studio compartiendo recursos
   #   - sigue mal    -> conectar por serie y leer el error de verdad
   #                     (LVGL assert, stack overflow, fallo de I2C)
+  #
+  # El log va por el snippet zmk-usb-logging, no por -DCONFIG_ZMK_USB_LOGGING=y:
+  # ese symbol a secas selecciona USB_CDC_ACM y UART_CONSOLE sin SERIAL ni el
+  # nodo zephyr,cdc-acm-uart en devicetree, y el build aborta. El snippet trae
+  # las dos cosas.
   - board: nice_nano_v2
     shield: corne_dongle dongle_display
-    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
+    snippet: zmk-usb-logging
     artifact-name: corne_dongle_nostudio
 
   # Pantalla de estado interna de ZMK sobre el mismo nodo OLED, sin bongocat.
