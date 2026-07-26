@@ -13,6 +13,28 @@ include:
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: corne_dongle
+
+  # Las dos de abajo solo hacen falta si corne_dongle sigue saliendo con ruido.
+  # Aislan la causa sin tener que flashear a ciegas otra vez.
+
+  # Bongocat sin raw HID ni Studio, y con log por USB.
+  #   - se ve bien   -> el problema es raw HID / Studio compartiendo recursos
+  #   - sigue mal    -> conectar por serie y leer el error de verdad
+  #                     (LVGL assert, stack overflow, fallo de I2C)
+  - board: nice_nano_v2
+    shield: corne_dongle dongle_display
+    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
+    artifact-name: corne_dongle_nostudio
+
+  # Pantalla de estado interna de ZMK sobre el mismo nodo OLED, sin bongocat.
+  #   - texto limpio -> panel, driver y cableado correctos, la culpa es de
+  #                     dongle_display / LVGL
+  #   - ruido igual  -> mirar hardware: I2C, cables, alimentacion del panel
+  - board: nice_nano_v2
+    shield: corne_dongle
+    cmake-args: -DCONFIG_ZMK_DISPLAY_STATUS_SCREEN_BUILT_IN=y
+    artifact-name: corne_dongle_probe
+
   - board: nice_nano_v2
     shield: corne_left
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
