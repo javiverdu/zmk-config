@@ -1,0 +1,33 @@
+# SPDX-License-Identifier: MIT
+
+if SHIELD_CORNE_DONGLE
+
+config ZMK_KEYBOARD_NAME
+    default "Corne Dongle"
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_USB
+    default y
+
+if ZMK_DISPLAY
+
+config I2C
+    default y
+
+config SSD1306
+    default y
+
+# El dongle va por USB: cola dedicada para que las animaciones no bloqueen
+# el hilo principal.
+choice ZMK_DISPLAY_WORK_QUEUE
+    default ZMK_DISPLAY_WORK_QUEUE_DEDICATED
+endchoice
+
+endif # ZMK_DISPLAY
+
+endif

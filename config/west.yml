@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/zzeneg
     - name: srwi # requerido para el modulo KeyPeek
       url-base: https://github.com/srwi
+    - name: englmaxi # requerido para la pantalla del dongle (bongocat)
+      url-base: https://github.com/englmaxi
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -22,6 +24,9 @@ manifest:
     - name: zmk-keypeek-layer-notifier # modulo KeyPeek
       remote: srwi
       revision: master
+    - name: zmk-dongle-display # shield dongle_display: bongocat, capa, modificadores
+      remote: englmaxi
+      revision: v0.3 # debe coincidir con el pin de zmk
 #    - name: zmk-oled-adapter
 #      remote: mctechnology17
 #      revision: main
